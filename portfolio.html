@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .body {
+            background-color: #ffe89b;
+            color: var(--primary-font-color);
+            font-family: 'Roboto', sans-serif;
+        }
+        p::first-line {
+            font-size: 1.4em;
+        }
+    </style>
+</head>
+<body>
+    <div class="header" id="header">
+        <div class="page-links">
+            <a href="index.html" style="text-decoration: none; color: inherit;">
+                <h5 class="page-selector">Home</h5>
+            </a>
+        </div>
+        <div class="page-links">
+            <a href="blog.html" style="text-decoration: none; color: inherit;">
+                <h5 class="page-selector">Blog</h5>
+            </a>
+        </div>
+        <div class="page-links">
+            <a href="about.html" style="text-decoration: none; color: inherit;">
+                <h5 class="page-selector">About</h5>
+            </a>
+        </div>
+        <div class="page-links">
+            <a href="contact.html" style="text-decoration: none; color: inherit;">
+                <h5 class="page-selector">Contact</h5>
+            </a>
+        </div>
+        <div class="page-links" id="portfolio-link">
+            <a href="portfolio.html" style="text-decoration: none; color: inherit;">
+                <h5 class="page-selector">Portfolio</h5>
+            </a>
+        </div>
+    </div>
+    <div class="body">
+        <div class="portfolio-container">
+            <div id="portfolio1" class="my-work">
+                <p class="video-caption box" id="portfolio-box1">Walkerz: made with javascript<br>
+                    <iframe class="portfolio-video"
+                    src="https://youtu.be/yezpHmtYsO0">
+                    </iframe>
+                    This is just a fun little game I made entirely with javascript.
+                    I created all of the animations and wrote the code.<br>
+                         <a href="https://dragonblossom53.itch.io/walkers">Play it yourself</a>
+                </p>
+                <p class="video-caption box" id="portfolio-box2">Knificorn: made with GODOT<br>
+                    <video controls class="portfolio-video">
+                    <source src="game-KU-edit.mp4" type="video/mp4">
+                    </video>
+                    This is a game that I built with the game engine GODOT. I created the animation,
+                        music, sound effects, and story. This project was for a game jam and had a two week deadline.<br>
+                        <a href="https://dragonblossom53.itch.io/killer-unicorn">Play it yourself</a>
+                </p>
+            </div>
+            <div class="box" id="portfolio-box3">
+            <p>UI elements and web design</p>
+            <img src="webdesign-pictures/main-screen-cafe.png" class="webdesign-shots">
+            <img src="webdesign-pictures/cafe-blog-screeshot.png" class="webdesign-shots">
+            <img src="webdesign-pictures/menu-screenshot.png" class="webdesign-shots">
+            <img src="webdesign-pictures/smaller-window-scroll.png" class="webdesign-shots">
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="footer">
+        <p id="footer-text">&copy; 2025 Michael Givens</p>
+    </div>
+
+</body>
+</html>

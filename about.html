@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    @media all and (max-width: 768px) {
+        #about-box {
+            overflow: auto;
+        }
+        #about-picture {
+            grid-row: 2 / 3;
+            grid-column: 1 / 2;
+            margin: 0 auto;
+            width: 100%;
+            padding: 0px;
+            background-color: rgba(46, 157, 70, 0);
+            border: 1px solid rgba(244, 250, 167, 0);
+            transition: background-color 0.3s ease;
+            animation: bounceIn 1.5s ease;
+            opacity: 0;
+            animation-fill-mode: forwards;
+            box-shadow: rgba(255, 0, 0, 0);
+            border-radius: rgba(255, 0, 0, 0);
+        }
+    }
+    #about-box {
+        margin: 20px;
+        margin-left: 100px;
+        width: 50vw;
+        height: 60vh;
+        padding: 20px;
+        color: #333;
+        font-family: 'Roboto', sans-serif;
+        box-shadow: 20px 10px 5px rgba(202, 159, 17, 0.342), 10px 7px 10px inset rgba(244, 250, 167, 0.443);
+    }
+    #about-picture {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        width: 20vw;
+        margin: 20px;
+        margin-left: -20px;
+        animation-delay: 0.2s;
+        box-shadow: 20px 10px 5px rgba(202, 159, 17, 0.342), 10px 7px 10px inset rgba(244, 250, 167, 0.443);
+    }
+    p {
+        margin: 20px;
+    }
+</style>
+<body>
+    <div class="header" id="header">
+        <div class="page-links">
+            <a href="index.html" style="text-decoration: none; color: inherit;">
+                <h5 class="page-selector">Home</h5>
+            </a>
+        </div>
+        <div class="page-links">
+            <a href="blog.html" style="text-decoration: none; color: inherit;">
+                <h5 class="page-selector">Blog</h5>
+            </a>
+        </div>
+        <div class="page-links">
+            <a href="about.html" style="text-decoration: none; color: inherit;">
+                <h5 class="page-selector">About</h5>
+            </a>
+        </div>
+        <div class="page-links">
+            <a href="contact.html" style="text-decoration: none; color: inherit;">
+                <h5 class="page-selector">Contact</h5>
+            </a>
+        </div>
+        <div class="page-links" id="portfolio-link">
+            <a href="portfolio.html" style="text-decoration: none; color: inherit;">
+                <h5 class="page-selector">Portfolio</h5>
+            </a>
+        </div>
+    </div>
+    <div class="about-container">
+        <!-- About content -->
+    <div class="about-box body box">
+        <p>Hi, I’m Michael, <br> <br>
+            Web developer, programmer, and digital marketing manager. 
+            I utilize my skills to create beautiful websites
+            and manage brand growth.
+            <br> <br>
+            My approach combines creativity and marketability.
+            I specialize in making websites with functional UI, style, and SEO.
+            I provide digital media management services to grow your brand,
+            whether you're a small business or a big brand, I’m here to help you increase engagement using proven methods.</p>
+    </div>
+    <div class="about-picture">
+        <img src="profile-pic.jpg" alt="Profile Picture" style="height: 75vh" id="profile-pic">
+    </div>
+    </div>
+    <div class="footer about-footer">
+        <p id="footer-text">&copy; 2025 Michael Givens</p>
+    </div>
+</body>
+</html>

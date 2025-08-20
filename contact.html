@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 16px; /* Adjust gap as needed */
+        color: var(--primary-font-color);
+        font-family: 'Roboto', sans-serif;
+        margin-bottom: 20px;
+    }
+</style>
+<body>
+    <div class="header" id="header">
+        <div class="page-links">
+            <a href="index.html" style="text-decoration: none; color: inherit;">
+                <h5 class="page-selector">Home</h5>
+            </a>
+        </div>
+        <div class="page-links">
+            <a href="blog.html" style="text-decoration: none; color: inherit;">
+                <h5 class="page-selector">Blog</h5>
+            </a>
+        </div>
+        <div class="page-links">
+            <a href="about.html" style="text-decoration: none; color: inherit;">
+                <h5 class="page-selector">About</h5>
+            </a>
+        </div>
+        <div class="page-links">
+            <a href="contact.html" style="text-decoration: none; color: inherit;">
+                <h5 class="page-selector">Contact</h5>
+            </a>
+        </div>
+        <div class="page-links" id="portfolio-link">
+            <a href="portfolio.html" style="text-decoration: none; color: inherit;">
+                <h5 class="page-selector">Portfolio</h5>
+            </a>
+        </div>
+    </div>
+    <div class="box" id="contact-box">
+    <h1>Contact Me</h1>
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+    </div>
+    <div class="footer">
+        <p id="footer-text">&copy; 2025 Michael Givens</p>
+    </div>
+</body>
+    </html>
