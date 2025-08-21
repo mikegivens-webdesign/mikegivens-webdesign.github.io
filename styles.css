@@ -259,7 +259,7 @@
         }
         #engagement-article-2 {
             float: right;
-            margin: -170px 0 0 510px;
+            margin: -120px 0 0 510px;
             padding-right: 50px;
         }
         #engagement-article-3 {
@@ -274,8 +274,13 @@
         }
         .blog-image {
             float: right;
-            margin-top: -460px;
+            margin-top: -465px;
             margin-right: 10%;
+        }
+        #blog-caption {
+            float: right;
+            margin: -127px 130px 0 0;
+            font-size: .7em;
         }
         .webdesign-box {
             float: right;
