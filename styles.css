@@ -327,15 +327,18 @@
                 /*visibility: hidden;*/
             }
             #box4 {
-                margin-top: -20%;
+                margin-top: -20vh;
                 width: fit-content;
+                grid-column: 1 / 4;
             }
             #box2 {
-                min-width: 60vw;
                 height: fit-content;
+                font-size: 1em;
+                min-width: 60vw;
+                min-height: 30vh;
             }
             .about-box {
-                max-height: fit-content;
+                max-height: 50vh;
                 min-width: 60%;
             }
             #heart-blog-title {
@@ -358,6 +361,10 @@
             }
             .about-container {
                 flex-direction: column;
+            }
+            #contact-box {
+                max-height: 40vh;
+                overflow-y: scroll;
             }
             #small-heart-image {
                 margin: 20px;
@@ -401,6 +408,18 @@
         }
         #heart-caption {
             visibility: hidden;
+        }
+        #small-heart-image {
+            margin: 20px;
+            visibility: visible;
+            max-width: 390px;
+            min-width: 300px;
+        }
+        #small-heart-caption {
+            visibility: visible;
+        }
+        #heart-blog-title {
+            margin: 20px;
         }
         .video-caption {
             width: 50vw;
