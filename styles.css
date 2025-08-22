@@ -398,5 +398,8 @@
                 max-height: 40vh;
                 overflow-y: scroll;
             }
+            .webdesign-shots {
+                width: 100%;
+                height: auto;}
         }
         
