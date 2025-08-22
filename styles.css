@@ -327,7 +327,7 @@
         .about-picture {
             min-height: 50vh;
         }
-        @media screen and (min-width: 0px) and (max-width: 1100px) {
+        @media screen and (max-width: 500px) {
             #heart-blog-title {
                 margin: 10px;
             }
@@ -339,6 +339,9 @@
                 margin: 0% 10% 0 3%;
                 padding: 0px 10px 20px 10px;
                 margin-top: -44px;
+            }
+            #heart-blog-title {
+                margin: 5px;
             }
             #heart-image {
                 visibility: hidden;
@@ -353,11 +356,6 @@
             }
             #small-heart-caption {
                 visibility: visible;
-            }
-        }
-        @media screen and (max-width: 550px) {
-            p::first-line {
-                font-size: 2.1em;
             }
             .intro-btn {
                 visibility: hidden;
@@ -384,9 +382,6 @@
             .about-picture {
                 max-width: 40%;
             }
-            #heart-blog-title {
-                margin: 5px;
-            }
             #engagement-article-1 {
                 width: auto;
             }
@@ -396,27 +391,12 @@
                 padding: 0px 10px 20px 10px;
                 margin-top: -44px;
             }
-            #heart-image {
-                visibility: hidden;
-            }
-            #heart-caption {
-                visibility: hidden;
-            }
             .about-container {
                 flex-direction: column;
             }
             #contact-box {
                 max-height: 40vh;
                 overflow-y: scroll;
-            }
-            #small-heart-image {
-                margin: 20px;
-                visibility: visible;
-                max-width: 390px;
-                min-width: 300px;
-            }
-            #small-heart-caption {
-                visibility: visible;
             }
         }
         
