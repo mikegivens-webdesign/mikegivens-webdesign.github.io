@@ -318,7 +318,7 @@
             width: 30vw;
             height: 70vh;
         }
-        @media all and (max-width: 768px) {
+        @media screen and (max-width: 768px) {
             p::first-line {
                 font-size: 1.2em;
                 color: var(--secondary-font-color);
