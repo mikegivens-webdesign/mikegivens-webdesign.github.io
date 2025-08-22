@@ -153,9 +153,9 @@
             margin: 20px auto;
             padding: 20px;
             width: 35vw;
+            min-width: 400px;
             height: 70vh;
             max-height: 400px;
-            overflow-y: auto;
             color: #333;
             font-family: 'Roboto', sans-serif;
             box-shadow: 20px 10px 5px rgba(202, 159, 17, 0.342), 10px 7px 10px inset rgba(244, 250, 167, 0.443);
@@ -277,7 +277,7 @@
         }
         #heart-image {
             float: right;
-            margin-top: -465px;
+            margin-top: -450px;
             margin-right: 10%;
         }
         #small-heart-image {
@@ -291,6 +291,7 @@
             float: right;
             margin: -127px 130px 0 0;
             font-size: .7em;
+            color: rgb(5, 5, 5);
         }
         .webdesign-box {
             float: right;
@@ -326,7 +327,39 @@
         .about-picture {
             min-height: 50vh;
         }
-        @media screen and (max-width: 500px) {
+        @media screen and (min-width: 575px) and (max-width: 1100px) {
+            p::first-line {
+                font-size: 1.2em;
+                color: var(--secondary-font-color);
+            }
+            #heart-blog-title {
+                margin: 10px;
+            }
+            #engagement-article-1 {
+                width: auto;
+            }
+            #engagement-article-2 {
+                float: none;
+                margin: 0% 10% 0 3%;
+                padding: 0px 10px 20px 10px;
+                margin-top: -44px;
+            }
+            #heart-image {
+                visibility: hidden;
+            }
+            #heart-caption {
+                visibility: hidden;
+            }
+            #small-heart-image {
+                visibility: visible;
+                width: 50vw;
+                min-width: 300px;
+            }
+            #small-heart-caption {
+                visibility: visible;
+            }
+        }
+        @media screen and (max-width: 575px) {
             p::first-line {
                 font-size: 1.2em;
                 color: var(--secondary-font-color);
