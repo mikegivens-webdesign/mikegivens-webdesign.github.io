@@ -376,7 +376,62 @@
                 visibility: visible;
             }
         }
-
+        @media all and (max-width: 768) { /*this one is for the window, not viewport size*/
+            p::first-line {
+                font-size: 1.2em;
+                color: var(--secondary-font-color);
+            }
+            .intro-btn {
+                /*visibility: hidden;*/
+            }
+            #box4 {
+                margin-top: -20vh;
+                width: fit-content;
+                grid-column: 1 / 4;
+            }
+            #box2 {
+                height: fit-content;
+                font-size: 1em;
+                min-width: 60vw;
+                min-height: 30vh;
+            }
+            .about-box {
+                min-width: 60%;
+            }
+            #heart-blog-title {
+                margin: 5px;
+            }
+            #engagement-article-1 {
+                width: auto;
+            }
+            #engagement-article-2 {
+                float: none;
+                margin: 0% 10% 0 3%;
+                padding: 0px 10px 20px 10px;
+                margin-top: -44px;
+            }
+            #heart-image {
+                visibility: hidden;
+            }
+            #heart-caption {
+                visibility: hidden;
+            }
+            .about-container {
+                flex-direction: column;
+            }
+            #contact-box {
+                max-height: 80vh;
+            }
+            #small-heart-image {
+                margin: 20px;
+                visibility: visible;
+                max-width: 390px;
+                min-width: 300px;
+            }
+            #small-heart-caption {
+                visibility: visible;
+            }
+        }
         @media all and (min-width: 768px) and (max-width: 1100px) {
         p::first-line {
             font-size: 1.2em;
@@ -458,13 +513,5 @@
             width: 85vw;
             text-align: center;
             padding-left: 0;
-        }
-    }
-    @media all and (min-width: 1100px) {
-        p::first-line {
-            font-size: 2.1em;
-            font-weight: bold;
-            color: var(--font-color);
-            margin: 2px;
         }
     }
