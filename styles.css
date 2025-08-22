@@ -136,10 +136,9 @@
         #contact-box {
             margin: 20px auto;
             padding: 20px;
-            width: 35vw;
-            min-width: 400px;
-            height: 70vh;
-            max-height: 400px;
+            min-width: 50vw;
+            width: fit-content;
+            height: fit-content;
             color: #333;
             font-family: 'Roboto', sans-serif;
             box-shadow: 20px 10px 5px rgba(202, 159, 17, 0.342), 10px 7px 10px inset rgba(244, 250, 167, 0.443);
@@ -166,7 +165,7 @@
         .page-links {
             display: flex;
             align-items: center;
-            margin: 10px 25px;
+            margin: 0px 25px;
             font-size: .9em;
             transition: background-color 1s ease;
         }
@@ -224,19 +223,16 @@
         }
         #portfolio-box2 {
             flex-basis: 40%;
-            margin-top: -47%;
             height: min-content;
         }
         #portfolio-box3 {
-            flex-basis: 40%;
+            flex-basis: 100%;
             text-align: center;
             width: min-content;
-            height: 150vh;
-            overflow-y: scroll;
-            overflow-x: visible;
+            height: fit-content;
         }
         .webdesign-shots {
-            width: 500px;
+            width: 80vw;
         }
         .animated-gif {
             position: absolute;
@@ -348,12 +344,15 @@
             .latest-work-image {
                 max-width: 450px
             }
+            
             .about-box {
                 max-height: 50vh;
                 min-width: 60%;
             }
             .about-picture {
                 max-width: 40%;
+                margin: 0 auto;
+                padding: 5vh 0 5vh 0;
             }
             #engagement-article-1 {
                 width: auto;
@@ -367,29 +366,5 @@
             .about-container {
                 flex-direction: column;
             }
-            #contact-box {
-                max-height: 40vh;
-                overflow-y: scroll;
-            }
-            .webdesign-shots {
-                width: 60vw;
-                height: auto;
-            }
-            .portfolio-container {
-                flex-direction: row;
-                align-items: center;
-            }
-            #portfolio-box1 {
-            display: none;
-            }
-            #portfolio-box2 {
-            display: none;
-            }
-            #portfolio-box3 {
-            flex-basis: 100%;
-            text-align: center;
-            width: 80vw;
-            height: min-content;
-        }
         }
         
