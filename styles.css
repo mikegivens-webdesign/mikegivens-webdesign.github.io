@@ -96,7 +96,7 @@
             grid-row: 1 / 2;
             margin-left: 5vw;
             max-height: 30vh;
-            font-size: 2vw;
+            font-size: 1.5em;
             margin-right: 0;
             max-width: 60vw;
             /*overflow: auto;/* Allows scrolling if content overflows */
@@ -327,7 +327,7 @@
         .about-picture {
             min-height: 50vh;
         }
-        @media screen and (max-width: 500px) {
+        @media screen and (max-width: 1100px) {
             #heart-blog-title {
                 margin: 10px;
             }
@@ -371,7 +371,7 @@
             }
             #box2 {
                 height: fit-content;
-                font-size: 1em;
+                font-size: 1.3em;
                 min-width: 80vw;
                 min-height: 30vh;
             }
