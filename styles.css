@@ -327,11 +327,7 @@
         .about-picture {
             min-height: 50vh;
         }
-        @media screen and (min-width: 550px) and (max-width: 1100px) {
-            p::first-line {
-                font-size: 1.2em;
-                color: var(--secondary-font-color);
-            }
+        @media screen and (min-width: 0px) and (max-width: 1100px) {
             #heart-blog-title {
                 margin: 10px;
             }
