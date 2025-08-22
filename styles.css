@@ -327,7 +327,7 @@
         .about-picture {
             min-height: 50vh;
         }
-        @media screen and (min-width: 575px) and (max-width: 1100px) {
+        @media screen and (min-width: 550px) and (max-width: 1100px) {
             p::first-line {
                 font-size: 1.2em;
                 color: var(--secondary-font-color);
@@ -359,28 +359,34 @@
                 visibility: visible;
             }
         }
-        @media screen and (max-width: 575px) {
+        @media screen and (max-width: 550px) {
             p::first-line {
-                font-size: 1.2em;
-                color: var(--secondary-font-color);
+                font-size: 2.1em;
             }
             .intro-btn {
-                /*visibility: hidden;*/
+                visibility: hidden;
+            }
+            .latest-work-image {
+                max-width: 450px
             }
             #box4 {
                 margin-top: -20vh;
-                width: fit-content;
+                width: 80vw;
                 grid-column: 1 / 4;
+                min-height: 50vh;
             }
             #box2 {
                 height: fit-content;
                 font-size: 1em;
-                min-width: 60vw;
+                min-width: 80vw;
                 min-height: 30vh;
             }
             .about-box {
                 max-height: 50vh;
                 min-width: 60%;
+            }
+            .about-picture {
+                max-width: 40%;
             }
             #heart-blog-title {
                 margin: 5px;
