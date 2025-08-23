@@ -312,6 +312,7 @@
         }
         .about-picture {
             min-height: 50vh;
+            margin-left: 0;
         }
         @media screen and (max-width: 1100px) {
             #heart-blog-title {
