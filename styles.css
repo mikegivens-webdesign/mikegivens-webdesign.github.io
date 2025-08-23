@@ -99,7 +99,6 @@
             width: min-content;
             flex-basis: 25%;
             flex-direction: row;
-            margin-left: -12%;
             margin-top: 10%;
             p::first-line {
                 font-size: 1.3em;
@@ -107,7 +106,7 @@
             }
         }
         .latest-work-image {
-            width: 500px;
+            width: 1000px;
             height: auto;
         }
         #box3 {
@@ -326,10 +325,6 @@
                     color: #333;
                 }
             }
-            .latest-work-image {
-                width: 1000px;
-                height: auto;
-            }
             #heart-blog-title {
                 margin: 10px;
             }
@@ -362,16 +357,13 @@
             .intro-btn {
                 visibility: hidden;
             }
-            .latest-work-image {
-                max-width: 450px
-            }
             .about-box {
                 max-height: 50vh;
                 min-width: 60%;
             }
             .about-picture {
-                width: 40vw;
-                margin-left: -50vw;
+                max-height: 40vh;
+                margin-left: -60vw;
             }
             #engagement-article-1 {
                 width: auto;
