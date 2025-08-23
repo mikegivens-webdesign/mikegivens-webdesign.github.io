@@ -315,6 +315,21 @@
             margin-left: 0;
         }
         @media screen and (max-width: 1100px) {
+            #box4 {
+                width: min-content;
+                flex-basis: 100%;
+                flex-direction: row;
+                margin-left: -12%;
+                margin-top: 10%;
+                p::first-line {
+                    font-size: 1.3em;
+                    color: #333;
+                }
+            }
+            .latest-work-image {
+                width: 1000px;
+                height: auto;
+            }
             #heart-blog-title {
                 margin: 10px;
             }
@@ -356,6 +371,7 @@
             }
             .about-picture {
                 width: 40vw;
+                margin-left: -50vw;
             }
             #engagement-article-1 {
                 width: auto;
@@ -386,7 +402,7 @@
             }
             #portfolio-box3 {
                 text-align: center;
-                width: 80vw;
+                width: 90vw;
                 height: fit-content;
             }
             .portfolio-video {
@@ -396,10 +412,11 @@
                 max-width: 80vw;
             }
             .webdesign-shots {
-                width: 80vw;
+                width: 90vw;
                 height: auto;
                 margin: 5px;
             }
+            
             footer {
                 margin-top: 200px;
             }
