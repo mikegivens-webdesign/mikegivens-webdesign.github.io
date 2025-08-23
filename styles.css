@@ -2,7 +2,7 @@
             --primary-color: #2e9d46;
             --secondary-color: #f5faa7;
             --accent-color: rgba(255, 0, 174, 0.333);
-            --secondary-font-color: rgba(255, 0, 174, 0.333); 
+            --secondary-font-color: rgba(255, 0, 174, 0.333);
             --border-radius: 30px; 
             --box-shadow: 20px 10px 5px rgba(202, 159, 17, 0.342), 10px 7px 10px inset rgba(244, 250, 167, 0.443);
             --header-height: 10vh;
@@ -136,8 +136,7 @@
         #contact-box {
             margin: 20px auto;
             padding: 20px;
-            min-width: 50vw;
-            width: fit-content;
+            width: 30vw;
             height: fit-content;
             color: #333;
             font-family: 'Roboto', sans-serif;
@@ -313,7 +312,7 @@
             min-height: 50vh;
             margin-left: 0;
         }
-        @media screen and (max-width: 1100px) {
+        @media screen and (max-width: 1100px) and (orientation: portrait) {
             .latest-work-image {
                 width: 75vw;
                 height: auto;
@@ -371,7 +370,8 @@
                 min-width: 60%;
             }
             .about-picture {
-                max-height: 40vh;
+                min-height: 10vh;
+                max-height: 200vh;
                 margin-left: 0vw;
             }
             #engagement-article-1 {
