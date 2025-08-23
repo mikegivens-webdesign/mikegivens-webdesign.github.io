@@ -314,11 +314,9 @@
             margin-left: 0;
         }
         @media screen and (max-width: 1100px) {
-            p::first-line {
-                font-size: 2.3em;
-                font-weight: bold;
-                color: var(--font-color);
-                margin: 2px;
+            .latest-work-image {
+                width: 75vw;
+                height: auto;
             }   
             #box4 {
                 width: min-content;
@@ -374,7 +372,7 @@
             }
             .about-picture {
                 max-height: 40vh;
-                margin-left: -50vw;
+                margin-left: 0vw;
             }
             #engagement-article-1 {
                 width: auto;
