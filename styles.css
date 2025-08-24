@@ -312,10 +312,9 @@
             overflow-y: auto;
         }
         .about-picture {
-            min-height: 50vh;
             margin-left: 0;
         }
-        @media screen and (max-width: 1100px) and (orientation: portrait) {
+        @media (max-width: 1100px) and (orientation: portrait) {
             .latest-work-image {
                 width: 75vw;
                 height: auto;
@@ -329,11 +328,12 @@
                     color: #333;
                 }
             }
-            #box3 {
-                display: none;
-            }
             #box2 {
-                flex-basis: 100%;
+                p::first-line {
+                    font-size: 1.3em;
+                    color: #333;
+                }
+                flex-basis: 70%;
                 font-size: 1.7em;
             }
             #heart-blog-title {
@@ -370,11 +370,15 @@
             }
             .about-box {
                 max-height: 50vh;
-                min-width: 60%;
+                width: 90vw;
+                font-size: 1.5em;
+                p::first-line {
+                    font-size: 1.7em;
+                    color: #333;
+                }
             }
             .about-picture {
-                min-height: 10vh;
-                max-height: 200vh;
+                height: auto;
                 margin-left: 0vw;
             }
             #engagement-article-1 {
