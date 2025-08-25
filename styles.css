@@ -186,7 +186,7 @@
             margin: 0 0 0 5%;
             position: absolute;
             display: inline-block;
-            top: 44%;
+            top: 45%;
         }
         .btn:hover {
             background-color: rgba(95, 7, 110, 0.9);
@@ -439,6 +439,43 @@
                 margin: 0px 40px 0 40px;
                 font-size: 1.2em;
                 transition: background-color 1s ease;
+            }
+        }
+
+
+        @media (max-width: 1100px) and (orientation: landscape) {
+            .intro-btn {
+                visibility: hidden;
+            }
+            #box2 {
+                p::first-line {
+                    font-size: 1em;
+                    color: #333;
+                }
+            }
+            #small-heart-image {
+                visibility: visible;
+                width: 30vw;
+                min-width: 300px;
+                margin-top: 50px
+            }
+            #small-heart-caption {
+                visibility: visible;
+            }
+            #heart-image {
+                visibility: hidden;
+            }
+            #heart-caption {
+                visibility: hidden;
+            }
+            #engagement-article-1 {
+                width: auto;
+            }
+            #engagement-article-2 {
+                float: none;
+                margin: 0% 10% 0 3%;
+                padding: 0px 10px 20px 10px;
+                margin-top: -44px;
             }
         }
         
