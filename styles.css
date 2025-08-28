@@ -183,7 +183,7 @@
             animation: hover 3s ease infinite;
         }
         .intro-btn {
-            margin: 0 0 0 5%;
+            margin: 1% 0 0 5%;
             position: absolute;
             display: inline-block;
             top: 45%;
