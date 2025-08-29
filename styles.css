@@ -48,13 +48,14 @@
             box-shadow: var(--box-shadow);
             border-radius: var(--border-radius);
         }
-        #portfolio-box1 { animation-delay: 0s; }
-        #portfolio-box3 { animation-delay: 0.2s; }
-        #portfolio-box2 { animation-delay: 0.4s; }
+        #javascript-game-design-box { animation-delay: 0s; }
+        #godot-game-engine-box { animation-delay: 0.2s; }
+        #webdesign-small-business-portfolio-box { animation-delay: 0.4s; }
+        #illustration-graphic-design-box { animation-delay: 0.6s; }
 
-        #box2 { animation-delay: 0s; }
-        #box3 { animation-delay: 0.2s; }
-        #box4 { animation-delay: 0.4s; }
+        #digital-design-intro-box { animation-delay: 0s; }
+        #digital-marketing-videos-box { animation-delay: 0.2s; }
+        #mobile-game-design-box { animation-delay: 0.4s; }
 
         #header {
             top: 0;
@@ -88,14 +89,14 @@
             padding: 0;
             color: var(--secondary-font-color);
         }
-        #box2 {
+        #digital-design-intro-box {
             height: min-content;
             font-size: 1.5em;
             margin-right: 0;
             flex-basis: 60%;
             /*overflow: auto;/* Allows scrolling if content overflows */
         }
-        #box4 {
+        #mobile-game-design-box {
             width: min-content;
             flex-basis: 100%;
             margin: 0 auto;
@@ -106,14 +107,36 @@
                 color: #333;
             }
         }
-        .latest-work-image {
+        #digital-marketing-videos-box {
+            flex-basis: 20%;
+        }
+        #tiktok-marketing {
+            font-size: 1.3em;
+            width: 43vh;
+            padding: 10px 1vh 10px 1vh;
+            margin-bottom:0;
+            color: rgba(211, 61, 163, 0.676);
+            background: linear-gradient(to top, var(--secondary-color), rgba(255, 0, 174, 0.279));
+        }
+        #tiktok-marketing-caption {
+            font-size: .8em;
+            color: rgba(211, 61, 163, 0.676);
+            background: linear-gradient(to top, var(--secondary-color), rgba(255, 0, 174, 0.279));
+            width: 43vh;
+            padding: 10px 1vh 10px 1vh;
+            margin-top: 80vh;
+            position: absolute;
+        }
+        .yoga-advertising-video {
+            width: 45vh;
+            margin: 0 auto;
+            position: absolute;
+        }
+        .mobile-game-design-images {
             width: 500px;
             height: auto;
             margin: 0 auto;
             padding: 0;
-        }
-        #box3 {
-            flex-basis: 20%;
         }
         .body {
             background-color: rgba(46, 157, 70, 0.589);
@@ -185,11 +208,6 @@
             animation: hover 1s ease;
             text-shadow: #333 4px 4px 6px;
         }
-        .intro-video {
-            width: 20vw;
-            margin: 0 auto;
-            display: block;
-        }
         .portfolio-container {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
@@ -197,33 +215,45 @@
             margin: 0 5vw 0 5vw;
             gap: 30px;
         }
-        .portfolio-video {
+        .game-design-portfolio-video {
             max-width: 40vw;
             border: 2px solid #333;
             border-radius: 10px;
             margin-top: 10px;
             margin-bottom: 10px;
         }
-        .video-caption {
+        .animation-work-video-caption {
             max-width: 40vw;
             text-align: center;
             padding: 20px;
             font-family: "Roboto", sans-serif;
         }
-        #portfolio-box1 {
+        #javascript-game-design-box {
             grid-column: 1 / 2;
             grid-row: 1 / 2;
             height: min-content;
         }
-        #portfolio-box2 {
+        #godot-game-engine-box {
             margin-top: -20%;
             grid-column: 1 / 2;
             grid-row: 2 / 3;
             height: min-content;
         }
-        #portfolio-box3 {
+        #webdesign-small-business-portfolio-box {
             grid-column: 2 / 3;
             grid-row: 1 / 4;
+        }
+        #illustration-graphic-design-box {
+            grid-column: 1 / 3;
+            grid-row: 3 / 6;
+            margin-top: -18%;
+            max-height: 80vh;
+            overflow-y: scroll;
+        }
+        .illustration-shots {
+            width: 35vw;
+        }
+        .multiple-images {
             text-align: center;
             width: 40vw;
             height: fit-content;
@@ -306,11 +336,11 @@
             margin-left: 0;
         }
         @media (max-width: 1100px) and (orientation: portrait) {
-            .latest-work-image {
+            .mobile-game-design-images {
                 width: 75vw;
                 height: auto;
             }   
-            #box4 {
+            #mobile-game-design-box {
                 width: min-content;
                 flex-basis: 100%;
                 flex-direction: row;
@@ -319,13 +349,31 @@
                     color: #333;
                 }
             }
-            #box2 {
+            #digital-design-intro-box {
                 p::first-line {
                     font-size: 1.3em;
                     color: #333;
                 }
-                flex-basis: 70%;
+                flex-basis: 100%;
                 font-size: 1.7em;
+            }
+            #tiktok-marketing {
+                font-size: 1.3em;
+                width: 28vh;
+                padding: 10px 1vh 10px 1vh;
+                margin-bottom:0;
+            }
+            #tiktok-marketing-caption {
+                font-size: .8em;
+                width: 28vh;
+                padding: 10px 1vh 10px 1vh;
+                margin-top: 0;
+                position: absolute;
+            }
+            .yoga-advertising-video {
+                width: 30vh;
+                margin: 0 auto;
+                position: relative;
             }
             #heart-blog-title {
                 margin: 10px;
@@ -390,30 +438,38 @@
                 flex-direction: column-reverse;
                 justify-content: space-between;
             }
-            #portfolio-box1 {
+            #javascript-game-design-box {
                 height: min-content;
                 width: 80vw;
             }
-            #portfolio-box2 {
+            #godot-game-engine-box {
                 margin-top: 0px; /*because with grid i had to adjust margin for fullsize*/
                 width: 80vw;
                 height: min-content;
             }
-            #portfolio-box3 {
+            #illustration-graphic-design-box {
+                margin-top: 20px;
+            }
+            .multiple-images {
                 text-align: center;
                 width: 85vw;
-                height: fit-content;
+                height: 50vh;
+                overflow-y: scroll;
             }
-            .portfolio-video {
+            .game-design-portfolio-video {
                 max-width: 80vw;
             }
-            .video-caption {
+            .animation-work-video-caption {
                 max-width: 80vw;
             }
             .webdesign-shots {
                 width: 85vw;
                 height: auto;
                 margin: 5px;
+            }
+            .illustration-shots {
+                width: 85vw;
+                height: auto;
             }
             #contact-box {
                 height: 35vh;
@@ -438,14 +494,26 @@
             .intro-btn {
                 visibility: hidden;
             }
-            #box2 {
+            #digital-design-intro-box {
                 p::first-line {
                     font-size: 1em;
                     color: #333;
                 }
             }
-            #box3 {
+            #digital-marketing-videos-box {
                 margin-top: 15%;
+            }
+            #tiktok-marketing-caption {
+                font-size: 1.5em;
+                padding: 10px 1vh 10px 1vh;
+                margin-top: -40%;
+                margin-left: 300px;
+                width: 40vw;
+                position: absolute;
+            }
+            .yoga-advertising-video {
+                margin: 0 auto;
+                position: relative;
             }
             #small-heart-image {
                 visibility: visible;
@@ -470,6 +538,14 @@
                 margin: 0% 10% 0 3%;
                 padding: 0px 10px 20px 10px;
                 margin-top: -44px;
+            }
+        }
+        @media (min-width: 1100px) and (max-width: 1175px) {
+            #digital-marketing-videos-box {
+                margin-bottom: 200%;
+            }
+            .intro-btn {
+                margin-top: 40px;
             }
         }
         
