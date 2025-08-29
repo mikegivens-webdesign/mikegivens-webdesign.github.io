@@ -247,7 +247,7 @@
             grid-column: 1 / 3;
             grid-row: 3 / 6;
             margin-top: -18%;
-            max-height: 80vh;
+            max-height: 120vh;
             overflow-y: scroll;
         }
         .illustration-shots {
