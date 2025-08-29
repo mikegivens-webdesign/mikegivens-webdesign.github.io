@@ -92,7 +92,7 @@
             height: min-content;
             font-size: 1.5em;
             margin-right: 0;
-            flex-basis: 75%;
+            flex-basis: 60%;
             /*overflow: auto;/* Allows scrolling if content overflows */
         }
         #box4 {
@@ -113,16 +113,7 @@
             padding: 0;
         }
         #box3 {
-            background-color: rgba(46, 157, 70, 0);
-            border: 1px solid rgba(244, 250, 167, 0);
-            transition: background-color 0.3s ease;
-            animation: bounceIn 1.5s ease;
-            opacity: 0;
-            animation-fill-mode: forwards;
-            box-shadow: rgba(151, 93, 93, 0) 0 0 10px;
-            border-radius: rgba(0, 0, 0, 0);
-            flex-basis: 10%;
-            margin-left: -5vw;
+            flex-basis: 20%;
         }
         .body {
             background-color: rgba(46, 157, 70, 0.589);
@@ -452,6 +443,9 @@
                     font-size: 1em;
                     color: #333;
                 }
+            }
+            #box3 {
+                margin-top: 15%;
             }
             #small-heart-image {
                 visibility: visible;
