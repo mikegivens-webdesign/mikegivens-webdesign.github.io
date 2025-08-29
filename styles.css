@@ -449,12 +449,16 @@
             }
             #illustration-graphic-design-box {
                 margin-top: 20px;
+                width: 80vw;
+            }
+            #webdesign-small-business-portfolio-box {
+                width: 80vw;
             }
             .multiple-images {
                 text-align: center;
-                width: 85vw;
+                width: 80vw;
                 height: 50vh;
-                overflow-y: scroll;
+                overflow: scroll;
             }
             .game-design-portfolio-video {
                 max-width: 80vw;
@@ -463,12 +467,12 @@
                 max-width: 80vw;
             }
             .webdesign-shots {
-                width: 85vw;
+                width: 80vw;
                 height: auto;
                 margin: 5px;
             }
             .illustration-shots {
-                width: 85vw;
+                width: 80vw;
                 height: auto;
             }
             #contact-box {
