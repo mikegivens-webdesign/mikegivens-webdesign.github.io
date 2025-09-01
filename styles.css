@@ -242,6 +242,8 @@
         #webdesign-small-business-portfolio-box {
             grid-column: 2 / 3;
             grid-row: 1 / 4;
+            max-height: 270vh;
+            overflow-y: scroll;
         }
         #illustration-graphic-design-box {
             grid-column: 1 / 3;
@@ -449,14 +451,14 @@
             }
             #illustration-graphic-design-box {
                 margin-top: 20px;
-                width: 80vw;
+                width: 65vw;
             }
             #webdesign-small-business-portfolio-box {
-                width: 80vw;
+                width: 65vw;
             }
             .multiple-images {
                 text-align: center;
-                width: 80vw;
+                width: 65vw;
                 height: 50vh;
                 overflow: scroll;
             }
