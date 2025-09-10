@@ -442,23 +442,23 @@
             }
             #javascript-game-design-box {
                 height: min-content;
-                width: 80vw;
+                width: 90vw;
             }
             #godot-game-engine-box {
                 margin-top: 0px; /*because with grid i had to adjust margin for fullsize*/
-                width: 80vw;
+                width: 90vw;
                 height: min-content;
             }
             #illustration-graphic-design-box {
                 margin-top: 20px;
-                width: 65vw;
+                width: 80vw;
             }
             #webdesign-small-business-portfolio-box {
-                width: 65vw;
+                width: 80vw;
             }
             .multiple-images {
                 text-align: center;
-                width: 65vw;
+                width: 80vw;
                 height: 50vh;
                 overflow: scroll;
             }
