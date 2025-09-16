@@ -46,6 +46,11 @@
     <div class="box" id="contact-box">
     <h1>Contact Me</h1>
     <form action="https://formsubmit.co/d446631f29ad2ec78c06576158c9eefe" method="POST">
+        <!--honeypot-->
+        <input type="text" name="_honey" style="display: none;">
+        <!--disable captcha-->
+        <input type="hidden" name="_captcha" value="false">
+
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" placeholder="your name" class="contact-inputs" required>
 
