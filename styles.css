@@ -586,13 +586,5 @@
                 height: 40vh;
                 overflow-y: scroll;
             }
-            #tiktok-marketing-caption {
-                font-size: 1.5em;
-                padding: 10px 1vh 10px 1vh;
-                margin-top: -40%;
-                margin-left: 45%;
-                width: 35vw;
-                position: absolute;
-            }
         }
         
