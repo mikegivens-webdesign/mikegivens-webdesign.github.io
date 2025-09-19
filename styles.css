@@ -57,22 +57,37 @@
         #digital-marketing-videos-box { animation-delay: 0.2s; }
         #mobile-game-design-box { animation-delay: 0.4s; }
 
-        #header {
+        .header {
             top: 0;
             left: 0;
             width: 100%;
             border: 2px rgba(0, 0, 0, 0.08) solid;
             position: sticky;
-            height: var(--header-height);
             box-shadow: 0 10px 10px inset rgba(255, 0, 174, 0.279);
-            text-align: center;
             color: rgba(211, 61, 163, 0.676);
-            font-size: 4vw;
+            font-size: 3vw;
+            z-index: 5;
+            margin: 0 0 20px 0;
+            max-height: var(--header-height);
+        }
+        li a {
+            transition: background-color 1s ease;
+            text-decoration: none;
+            color: rgba(211, 61, 163, 0.676);
+        }
+        li a:hover {
+            color: rgba(132, 17, 111, 0.8);
+        }
+        ul {
+            list-style-type: none;
+            font-weight: bolder;
             display: flex;
             justify-content: center;
             align-items: center;
-            z-index: 5;
-            margin: 0px 0px 20px 0px;
+            gap: 8%;
+            margin: 0;
+            padding: 10px;
+            transition: background-color 1s ease;
         }
         .footer {
             position: relative;
@@ -191,24 +206,6 @@
         }
         #beetle-image {
             margin-right: 2%;
-        }
-        .page-selector {
-            margin-top: 15px;
-            transition: background-color 1s ease;
-            height: 10vh;
-            padding-top: 10vh;
-        }
-        .page-selector:hover {
-            color: rgba(132, 17, 111, 0.8);
-            font-weight: bolder;
-            text-decoration-color: rgba(95, 7, 110, 0.8);
-        }
-        .page-links {
-            display: flex;
-            align-items: center;
-            margin: 0px 25px;
-            font-size: .9em;
-            transition: background-color 1s ease;
         }
         .btn {
             font-size: 1.5em;
@@ -363,6 +360,13 @@
             margin-left: 0;
         }
         @media (max-width: 1100px) and (orientation: portrait) {
+            .header {
+                max-height: 20vh;
+                font-size: 2.7em;
+            }
+            ul {
+                gap: 5%;
+            }
             .mobile-game-design-images {
                 width: 75vw;
                 height: auto;
@@ -378,27 +382,31 @@
             }
             #digital-design-intro-box {
                 p::first-line {
-                    font-size: 1.3em;
+                    font-size: 1.5em;
                     color: #333;
                 }
                 flex-basis: 100%;
                 font-size: 1.7em;
             }
+            #digital-marketing-videos-box {
+                width: 80vw;
+                margin-bottom: 50px;
+            }
             #tiktok-marketing {
-                font-size: 1.3em;
-                width: 28vh;
-                padding: 10px 1vh 10px 1vh;
-                margin-bottom:0;
+                width: 80vw;
+                font-size: 2.5em;
+                padding: 10px 0vh 10px 0vh;
+                margin-bottom: 0;
             }
             #tiktok-marketing-caption {
-                font-size: .8em;
-                width: 28vh;
-                padding: 10px 1vh 10px 1vh;
+                width: 80vw;
+                font-size: 1.5em;
+                padding: 10px 0vh 10px 0vh;
                 margin-top: 0;
                 position: absolute;
             }
             .yoga-advertising-video {
-                width: 30vh;
+                width: 80vw;
                 margin: 0 auto;
                 position: relative;
             }
@@ -503,20 +511,13 @@
                 height: auto;
             }
             #contact-box {
-                height: 35vh;
+                height: 45vh;
                 width: 90vw;
                 font-size: 2.5em;
                     p::first-line {
                         font-size: 1.7em;
                         color: #333;
                     }
-            }
-            .page-links {
-                display: flex;
-                align-items: center;
-                margin: 0px 40px 0 40px;
-                font-size: 1.2em;
-                transition: background-color 1s ease;
             }
         }
 
