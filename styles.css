@@ -375,15 +375,16 @@
                 width: min-content;
                 flex-basis: 100%;
                 flex-direction: row;
-                p::first-line {
-                    font-size: 1.3em;
-                    color: #333;
-                }
+                font-size: 2em;
+                font-weight: bold;
+                color: #333;
+                
             }
             #digital-design-intro-box {
                 p::first-line {
-                    font-size: 1.5em;
+                    font-size: 2.2em;
                     color: #333;
+                    text-align: center;
                 }
                 flex-basis: 100%;
                 font-size: 1.7em;
@@ -511,7 +512,7 @@
                 height: auto;
             }
             #contact-box {
-                height: 45vh;
+                height: fit-content;
                 width: 90vw;
                 font-size: 2.5em;
                     p::first-line {
@@ -584,7 +585,7 @@
         }
         @media (min-width: 768px) and (min-height: 1024px) and (orientation: portrait) {
             #contact-box {
-                height: 40vh;
+                height: auto;
                 overflow-y: scroll;
             }
         }
