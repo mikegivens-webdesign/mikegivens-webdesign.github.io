@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Contact</title>
+    <title>Newsletter</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -22,33 +22,31 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="digital-marketing-portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Club</a></li>
+                <li><a href="digital-marketing-portfolio.html">Games</a></li>
             </ul>
         </nav>
     </div>
-    <div class="box" id="contact-box">
-    <h1>Contact Me</h1>
+    <div class="box chewy-regular" id="contact-box">
+    <p>Join the Club!<br>
+    What club you may ask? Alien Cow Comics!<br>
+    Get exclusive updates on the latest game developments,
+    silly little doodles,
+    and more exciting content.</p>
     <form action="https://formsubmit.co/d446631f29ad2ec78c06576158c9eefe" method="POST">
         <!--honeypot-->
         <input type="text" name="_honey" style="display: none;">
         <!--disable captcha-->
         <input type="hidden" name="_captcha" value="false">
 
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" placeholder="your name" class="contact-inputs" required>
+        <label for="email" class="chewy-regular">Email:</label>
+        <input type="email" id="email" name="email" placeholder="your email" class="contact-inputs chewy-regular" required>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="your email" class="contact-inputs" required>
-
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="4" placeholder="your message" class="contact-inputs" required></textarea>
-
-        <button type="submit" id="submit-button">Send Message</button>
+        <button type="submit" id="submit-button" class="chewy-regular">Submit</button>
     </form>
     </div>
     <div class="footer">
-        <p id="footer-text">&copy; 2025 Michael Givens</p>
+        <p id="footer-text">&copy; 2026 Alien Cow Games</p>
     </div>
 </body>
     </html>
