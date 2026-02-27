@@ -232,7 +232,7 @@
             margin: -2% 0 0 5%;
             position: absolute;
             display: inline-block;
-            top: 45%;
+            top: 50%;
         }
         .btn:hover {
             background-color: rgba(95, 7, 110, 0.9);
