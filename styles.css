@@ -615,7 +615,8 @@
                 margin-top: 5vh;
             }
             .about-picture {
-                height: 70vh;
+                height: 55vh;
+                margin-bottom: 10vh;
             }
         }
         
