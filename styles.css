@@ -465,6 +465,7 @@
             .about-box {
                 max-height: 50vh;
                 font-size: 1.5em;
+                width: 90vw;
                 p::first-line {
                     font-size: 1.7em;
                     color: #333;
