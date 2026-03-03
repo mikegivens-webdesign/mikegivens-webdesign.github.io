@@ -465,13 +465,13 @@
             .about-box {
                 max-height: 50vh;
                 height: 50vh;
-                font-size: 1.7em;
+                font-size: 1.5em;
                 p::first-line {
                     font-size: 2em;
                 }
             }
             .about-picture {
-                width: 50vw;
+                height: 60vh;
                 margin-left: 0vw;
             }
             #engagement-article-1 {
@@ -612,6 +612,9 @@
             }
             #link-box {
                 margin-top: 5vh;
+            }
+            .about-picture {
+                height: 50vh;
             }
         }
         
