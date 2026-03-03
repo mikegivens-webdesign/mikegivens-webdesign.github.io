@@ -465,9 +465,13 @@
             .about-box {
                 max-height: 50vh;
                 font-size: 1.5em;
+                p::first-line {
+                    font-size: 1.7em;
+                    color: #333;
+                }
             }
             .about-picture {
-                height: 10vh;
+                height: auto;
                 margin-left: 0vw;
             }
             #engagement-article-1 {
@@ -610,7 +614,8 @@
                 margin-top: 5vh;
             }
             .about-picture {
-                height: 50vh;
+                height: 45vh;
+                margin-bottom: 20vh;
             }
         }
         
