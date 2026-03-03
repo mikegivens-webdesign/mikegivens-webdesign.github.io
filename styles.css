@@ -466,13 +466,9 @@
                 max-height: 50vh;
                 width: 90vw;
                 font-size: 1.5em;
-                p::first-line {
-                    font-size: 1.7em;
-                    color: #333;
-                }
             }
             .about-picture {
-                height: auto;
+                height: 40vh;
                 margin-left: 0vw;
             }
             #engagement-article-1 {
@@ -615,7 +611,7 @@
                 margin-top: 5vh;
             }
             .about-picture {
-                height: 45vh;
+                height: 30vh;
                 margin-bottom: 20vh;
             }
         }
