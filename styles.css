@@ -464,14 +464,10 @@
             }
             .about-box {
                 max-height: 50vh;
-                height: 50vh;
                 font-size: 1.5em;
-                p::first-line {
-                    font-size: 2em;
-                }
             }
             .about-picture {
-                height: 60vh;
+                height: 10vh;
                 margin-left: 0vw;
             }
             #engagement-article-1 {
