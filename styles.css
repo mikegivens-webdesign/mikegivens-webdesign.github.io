@@ -59,6 +59,9 @@
             box-shadow: var(--box-shadow);
             border-radius: var(--border-radius);
         }
+        .playlist {
+            padding: 2px;
+        }
         #javascript-game-design-box { animation-delay: 0s; }
         #godot-game-engine-box { animation-delay: 0.2s; }
         #webdesign-small-business-portfolio-box { animation-delay: 0.4s; }
