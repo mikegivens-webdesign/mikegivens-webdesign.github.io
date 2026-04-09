@@ -117,11 +117,9 @@
         }
         #link-box {
             color:#0e7a1c;
-            margin: 50px;
-            margin-right: -30vw;
-            margin-top: 32vh;
             font-size: 1.5em;
             height:min-content;
+            margin-top: 25vh;
         }
         #merch_intro {
             color: #0e7a1c;
@@ -168,7 +166,6 @@
             background: linear-gradient(to top, var(--secondary-color), rgba(255, 0, 174, 0.279));
             width: 43vh;
             padding: 10px 1vh 10px 1vh;
-            margin-top: 80vh;
             position: absolute;
         }
         .yoga-advertising-video {
@@ -235,8 +232,7 @@
             margin-right: 2%;
         }
         .btn {
-            font-size: 1.5em;
-            padding: 10px 20px;
+            font-size: 1.2em;
             background-color: rgba(95, 7, 110, 0.8);
             color: rgba(255, 255, 255, 0.562);
             border: none;
@@ -246,11 +242,11 @@
             animation: hover 3s ease infinite;
         }
         .intro-btn {
-            margin: -2% 0 0 5%;
+            margin: 0;
             position: absolute;
-            display: inline-block;
-            top: 50%;
-        }
+            height: 7vh;
+            padding: 10px;
+        }   
         .btn:hover {
             background-color: rgba(95, 7, 110, 0.9);
             color: rgba(255, 255, 255, 0.8);
