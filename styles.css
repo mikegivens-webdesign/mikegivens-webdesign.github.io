@@ -154,6 +154,7 @@
             flex-basis: 20%;
         }
         #tiktok-marketing {
+            font-family: 'Roboto', sans-serif;
             font-size: 1.3em;
             width: 45vh;
             padding: 10px 1vh 10px 1vh;
@@ -316,6 +317,7 @@
             margin-top: -150px;
         }
         .blog-container {
+            font-family: 'Roboto', sans-serif;
             background: linear-gradient(to bottom, rgba(202, 97, 17, 0.342), rgba(214, 75, 75, 0.438));
             color: white;
             margin: 1% 10% 10% 10%;
