@@ -1,0 +1,48 @@
+.chewy-regular {
+            font-family: "Chewy", system-ui;
+            font-weight: 400;
+            font-style: normal;
+        }
+.header {
+            top: 0;
+            left: 0;
+            width: 100%;
+            border: 2px rgba(0, 0, 0, 0.08) solid;
+            position: sticky;
+            box-shadow: 0 10px 10px inset rgba(255, 0, 174, 0.279);
+            color: rgba(211, 61, 163, 0.676);
+            font-size: 3vw;
+            z-index: 5;
+            margin: 0 0 20px 0;
+            max-height: var(--header-height);
+            font-family: 'Roboto', sans-serif;
+        }
+        a {
+            color: rgb(231, 231, 137)
+        }
+        li a {
+            transition: background-color 1s ease;
+            text-decoration: none;
+            color: rgba(211, 61, 163, 0.676);
+        }
+        li a:hover {
+            color: rgba(132, 17, 111, 0.8);
+        }
+        ul {
+            list-style-type: none;
+            font-weight: bolder;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8%;
+            margin: 0;
+            padding: 10px;
+            transition: background-color 1s ease;
+        }
+            body {
+            background-color: #ffe89b;
+            overflow-x: hidden;
+            overflow-y: auto;
+            margin: 0;
+            padding: 0;
+        }
